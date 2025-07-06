@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+
+
+.linha{
+    margin-top: 3rem;
+    opacity: 50%;
+    width: 45rem;
+}
+
+.linha-igre{
+    opacity: 80%;
+    width: 40rem;
+}
+
+/* COLOR */
+
+
+
+/* Topicos */
+
+
+/* Container */
+
+.col-container{ 
+    display: flex;
+    background-color: hsl(30, 54%, 90%);
+    min-height: 100vh;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 2rem;
+    padding: 3rem;
+    width: 50rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Imagem */
+
+.box-img{
+    display: flex;
+    justify-self: center;
+    border-radius: 1rem;
+    width: 50rem;
+    height: 23rem;
+}
+
+
+
+/* section 2*/
+
+
+.col-2 h1{
+    margin-left: 2rem;
+    font-family: "Young Serif", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+.col-2 h3{
+    margin-left: 2rem;
+    color: #7a7672;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* section 3 */
+
+.col-3 .card{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 1rem;
+}
+
+.col-3 h2{
+    margin-top: 4rem;
+    margin-left: 4rem;
+    color: hsl(332, 51%, 32%);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+.col-3 h3{
+    margin-left: 4rem;
+    color: #7a7672;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.col-3 h3 span{
+    color: hsl(30, 10%, 34%);
+}
+
+
+/* section 4 */
+
+
+.col-4 h1{
+    margin-top: 4rem;
+    margin-left: 2rem;
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+.col-4 h3{
+    margin-left: 4rem;
+    color: #7a7672;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* section 5 */
+
+
+.col-5 h1{
+    margin-top: 3rem;
+    margin-left: 2rem;
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+.col-5 h3{
+    margin-left: 3rem;
+    color: #7a7672;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.col-5 h3 .numeral{
+    color: hsl(14, 45%, 36%);
+}
+
+.col-5 h3 span{
+    color: hsl(30, 10%, 34%);
+}
+
+/* section 6 */
+
+.col-6 h1{
+    margin-top: 3rem;
+    margin-left: 2rem;
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+.col-6 h3{
+    display: flex;
+    margin-left: 2rem;
+    color: #7a7672;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.col-6 .info{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+.col-6 h3 span{
+    color: hsl(30, 10%, 34%); 
+    color: hsl(14, 45%, 36%);
+}
+
+
+
+.info-item {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+/* footer */
+
+.attribution{
+    margin-top: 10rem;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+@media (max-width: 768px) {
+    .col{
+        width: 100%;
+        flex-direction: column;
+    }
+}
